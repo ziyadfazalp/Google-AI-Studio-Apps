@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { THUMBNAIL_STYLES } from '../constants';
-import SparklesIcon from './icons/SparklesIcon';
+import { THUMBNAIL_STYLES } from '../constants.ts';
+import SparklesIcon from './icons/SparklesIcon.tsx';
 
 interface PromptFormProps {
   onGenerate: (prompt: string) => void;

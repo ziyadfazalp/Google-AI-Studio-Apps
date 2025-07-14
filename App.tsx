@@ -1,8 +1,8 @@
 
 import React, { useState, useCallback } from 'react';
-import PromptForm from './components/PromptForm';
-import ImageDisplay from './components/ImageDisplay';
-import { generateThumbnail } from './services/geminiService';
+import PromptForm from './components/PromptForm.tsx';
+import ImageDisplay from './components/ImageDisplay.tsx';
+import { generateThumbnail } from './services/geminiService.ts';
 
 const App: React.FC = () => {
   const [generatedImage, setGeneratedImage] = useState<string | null>(null);

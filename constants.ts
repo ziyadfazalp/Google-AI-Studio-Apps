@@ -1,5 +1,5 @@
 
-import { ThumbnailStyle } from './types';
+import { ThumbnailStyle } from './types.ts';
 
 export const THUMBNAIL_STYLES: ThumbnailStyle[] = [
   { name: 'Vibrant', prompt_suffix: ', vibrant colors, high contrast, dynamic' },
