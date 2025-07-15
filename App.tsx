@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import PromptForm from './components/PromptForm';
 import ImageDisplay from './components/ImageDisplay';

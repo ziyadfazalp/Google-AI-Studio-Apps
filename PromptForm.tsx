@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { THUMBNAIL_STYLES } from '../constants';
 import SparklesIcon from './icons/SparklesIcon';
